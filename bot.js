@@ -19,8 +19,8 @@ config({
 
 
 client.on("ready", () => {
-    console.log("Megumin is online")
-    client.user.setActivity('Do msearch, BAKA', { type: 'PLAYING'}).catch(console.error)
+    console.log("Hayasaka is online")
+    client.user.setActivity('Do hsearch, BAKA', { type: 'PLAYING'}).catch(console.error)
     
 
     
@@ -29,7 +29,7 @@ client.on("ready", () => {
 
 
 client.on("message", async message => {
-    const prefixes = ["m", "M", "Megu", "megu"]
+    const prefixes = ["h", "H"]
     let prefix = false;
     for(const thisPrefix of prefixes) {
         if(message.content.startsWith(thisPrefix)) prefix = thisPrefix;
