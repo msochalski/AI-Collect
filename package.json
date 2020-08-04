@@ -1,0 +1,28 @@
+{
+  "name": "aicollect",
+  "version": "1.0.0",
+  "description": "aicollect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Magic-Bot-Coder/AI-Collect.git"
+  },
+  "author": "magicc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Magic-Bot-Coder/AI-Collect/issues"
+  },
+  "homepage": "https://github.com/Magic-Bot-Coder/AI-Collect#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord-bot-analytics": "^1.0.14",
+    "discord-economy": "^1.2.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "quick.db": "^7.1.1"
+  }
+}
